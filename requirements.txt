@@ -1,0 +1,6 @@
+kafka-python
+one_config
+psycopg2
+python-json-logger
+pyyaml
+requests

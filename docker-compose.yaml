@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  webmon-consumer:
+    container_name: webmon-consumer
+    build: .
+    command: "python3 consumer.py"
+    image: rfuchs/webmon:1.0
+  webmon-producer:
+    container_name: webmon-producer
+    build: .
+    command: "python3 producer.py"
+    image: rfuchs/webmon:1.0

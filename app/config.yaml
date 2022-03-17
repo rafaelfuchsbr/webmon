@@ -1,0 +1,26 @@
+application:
+    name: 'Website monitor'
+logging:
+    level: DEBUG
+monitoring:
+    interval: 30
+kafka:
+    server: <enter your info here>
+    port: <enter your info here>
+    topic: <enter your info here>
+    consumer:
+        group: <enter your info here>
+    ssl:
+        cafile: ./certs/<enter your info here>
+        certfile: ./certs/<enter your info here>
+        keyfile: ./certs/<enter your info here>
+database:
+    host: <enter your info here>
+    port: <enter your info here>
+    db: <enter your info here>
+    user: <enter your info here>
+    password: <enter your info here>
+consumer:
+    threads: 5
+producer:
+    threads: 5
